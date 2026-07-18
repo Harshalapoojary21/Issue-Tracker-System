@@ -1,0 +1,238 @@
+.dashboard-container{
+
+    padding:30px 50px;
+
+}
+
+
+
+.dashboard-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.dashboard-header h1{
+
+    font-size:28px;
+
+}
+
+
+
+.add-btn{
+
+    background:#1a73e8;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:6px;
+
+    font-size:15px;
+
+}
+
+
+
+.stats-container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+.stat-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:
+    0 3px 10px rgba(0,0,0,0.08);
+
+}
+
+
+
+.stat-card h3{
+
+    color:#5f6368;
+
+    font-size:15px;
+
+}
+
+
+
+.stat-card h2{
+
+    margin-top:10px;
+
+    font-size:30px;
+
+}
+
+
+
+.issue-table{
+
+    margin-top:35px;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:20px;
+
+}
+
+
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+th{
+
+    text-align:left;
+
+    padding:15px;
+
+    background:#f8f9fa;
+
+}
+
+
+
+td{
+
+    padding:15px;
+
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+.status{
+
+    padding:5px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+}
+
+
+
+.open{
+
+    background:#fdecea;
+
+    color:#d93025;
+
+}
+
+
+
+.progress{
+
+    background:#fff4ce;
+
+    color:#f9ab00;
+
+}
+
+
+
+.closed{
+
+    background:#e6f4ea;
+
+    color:#137333;
+
+}
+/* Action Buttons */
+
+.assign-btn,
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Assign */
+
+.assign-btn {
+  background: #1976d2;
+}
+
+.assign-btn:hover {
+  background: #1565c0;
+}
+
+/* Edit */
+
+.edit-btn {
+  background: #f57c00;
+}
+
+.edit-btn:hover {
+  background: #ef6c00;
+}
+
+/* Delete */
+
+.delete-btn {
+  background: #d32f2f;
+}
+
+.delete-btn:hover {
+  background: #b71c1c;
+}
+
+.view-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-btn:hover {
+  background: #388e3c;
+}
